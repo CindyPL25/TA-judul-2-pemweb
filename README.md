@@ -2,8 +2,6 @@
 
 Selamat datang di repositori Portfolio Cindy Puji Lestari. Ini adalah website portofolio statis yang menampilkan profil, pencapaian, galeri foto, dan informasi kontak.
 
-README ini sudah diperbarui agar cocok dengan struktur proyek yang ada sekarang (file HTML: `index.html`, `about.html`, `achievements.html`, `gallery.html`, `contact.html`).
-
 Ringkasan singkat
 - Nama proyek: Portfolio Cindy Puji Lestari
 - Pemilik: Cindy Puji Lestari
@@ -48,11 +46,16 @@ Dokumentasi Git:
 ![Git log (one-line)](img/docs/oneline.png)
 
 Dokumentasi halaman (preview)
-- Beranda — `index.html` (lihat `img/beranda.png` jika tersedia)
-- Tentang Saya — `about.html` (lihat `img/tentangsaya.png`)
-- Pencapaian — `achievements.html` (lihat `img/pencapaian.png`)
-- Galeri — `gallery.html` (lihat `img/galeri.png`)
-- Kontak — `contact.html` (lihat `img/kontak.png`)
+1. **Beranda**
+   ![Halaman beranda](img/beranda.png)
+2. **Tentang Saya**
+   ![Halaman tentang saya](img/tentangsaya.png)
+3. **Pencapaian**
+   ![Halaman pencapaian](img/pencapaian.png)
+4. **Galeri**
+   ![Halaman galeri](img/galeri.png)
+5. **Kontak**
+   ![Halaman kontak](img/kontak.png)
 
 Cara menjalankan secara lokal
 1. Langsung buka file: buka `index.html` dengan browser (klik dua kali).
