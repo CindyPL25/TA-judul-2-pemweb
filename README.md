@@ -45,18 +45,6 @@ Dokumentasi Git:
 
 ![Git log (one-line)](img/docs/oneline.png)
 
-Dokumentasi halaman (preview)
-1. **Beranda**
-   ![Halaman beranda](img/beranda.png)
-2. **Tentang Saya**
-   ![Halaman tentang saya](img/tentangsaya.png)
-3. **Pencapaian**
-   ![Halaman pencapaian](img/pencapaian.png)
-4. **Galeri**
-   ![Halaman galeri](img/galeri.png)
-5. **Kontak**
-   ![Halaman kontak](img/kontak.png)
-
 Cara menjalankan secara lokal
 1. Langsung buka file: buka `index.html` dengan browser (klik dua kali).
 2. Dengan server lokal (rekomendasi untuk path konsisten):
