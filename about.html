@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tentang Saya - Cindy Puji Lestari</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">CINDY</div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="active">Tentang Saya</a></li>
+          <li><a href="achievements.html">Pencapaian</a></li>
+          <li><a href="gallery.html">Galeri</a></li>
+          <li><a href="contact.html">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="about-section">
+    <div class="container about-container">
+      <div class="about-image">
+        <img src="img/aku.png" alt="Foto Cindy">
+      </div>
+      <div class="about-content">
+        <h2 class="section-title">Tentang Saya</h2>
+        <p>Saya <b>Cindy Puji Lestari</b>, mahasiswa Informatika yang menyukai dunia teknologi, desain, dan pengembangan website.</p>
+
+        <div class="tab-container">
+          <input type="radio" name="tabs" id="tab-hobby" checked>
+          <input type="radio" name="tabs" id="tab-experience">
+          <input type="radio" name="tabs" id="tab-education">
+
+          <div class="tabs">
+            <label for="tab-hobby">Hobi</label>
+            <label for="tab-experience">Pengalaman</label>
+            <label for="tab-education">Pendidikan</label>
+          </div>
+
+          <div id="hobby" class="tab-content">
+            <h3><i class="fas fa-utensils"></i> Memasak</h3>
+            <p>Saya suka memasak karena bisa berkreasi dan memberi kebahagiaan lewat makanan.</p>
+            <h3><i class="fas fa-tv"></i> Menonton Asmara Genz</h3>
+            <p>Menjadi hiburan dan inspirasi saya.</p>
+            <h3><i class="fas fa-plane"></i> Jalan-jalan</h3>
+            <p>Membuka wawasan dan pengalaman baru.</p>
+          </div>
+
+          <div id="experience" class="tab-content">
+            <h3><i class="fas fa-laptop-code"></i> Web Development</h3>
+            <p>Membuat website portofolio, dashboard, dan sistem e-learning.</p>
+            <h3><i class="fas fa-paint-brush"></i> UI/UX Design</h3>
+            <p>Mendesain antarmuka pengguna yang menarik dan mudah digunakan.</p>
+          </div>
+
+          <div id="education" class="tab-content">
+            <h3><i class="fas fa-graduation-cap"></i> Pendidikan</h3>
+            <ul>
+              <li><strong>2023 – Sekarang</strong> Universitas Lampung – Teknik Informatika</li>
+              <li><strong>2020 – 2023</strong> SMA Negeri 1 Pesisir Selatan</li>
+              <li><strong>2017 – 2020</strong> SMP Negeri 13 Krui</li>
+              <li><strong>2011 – 2017</strong> SD Negeri 1 Biha</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Cindy Puji Lestari</p>
+  </footer>
+</body>
+</html>
